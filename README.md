@@ -20,3 +20,13 @@ Dog tests ensure that the name and age attributes are correctly set and retrieve
 Person tests validate the behavior of methods like hasOldDog() (checks if the person has a dog that is 10 or older) and changeDogsName() (ensures the dog's name can be changed or throws an exception if the person doesn't own a dog). Tests also check the correct behavior of getters, setters, equals(), and toString().
 
 The tests cover scenarios for both owning a dog and not owning a dog, ensuring proper exception handling and correct functionality.
+
+
+How to Run the Code
+Using Maven (Recommended)
+1. Clone the repository  
+   ```sh
+   git clone github-repo-url
+   cd Assignment1
+   mvn clean install
+   mvn test
